@@ -3,6 +3,7 @@
 
 import requests
 from bs4 import BeautifulSoup as BS
+
 # Logics
 
 page = 1
@@ -19,3 +20,5 @@ while True:
             page += 1    
     else:
         break
+
+# =>
